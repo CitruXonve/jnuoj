@@ -1,0 +1,16 @@
+# ignore composer vendor
+/vendor/*
+
+# ignore upload files
+/uploadstand/*
+/external/*
+
+# ignore real config files
+config.php
+/nbproject/
+
+# ignore cached pictures
+/images/
+
+# ignore website icons
+/ico/
