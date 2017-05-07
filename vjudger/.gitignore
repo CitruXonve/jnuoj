@@ -1,0 +1,38 @@
+# ignore bott files
+/results/*
+/cha_results/*
+/raw_files/*
+/cha_raw_files/*
+*.bott
+
+# ignore CodeBlocks/Netbeans project files, compiled files
+bin
+build
+*.cbp
+*.layout
+*.depend
+*.o
+dist
+nbproject
+obj
+.dep.inc
+autom4te.cache
+Makefile
+.deps
+stamp-h1
+config.h
+config.status
+vjudge
+
+# ignore log files
+*.log
+nohup.out
+
+#ignore tmpfile and cookie
+/vjudge-v2/cookies/*
+/vjudge-v2/tmpfile/*
+/vjudge-v2/tests/judgertest.cpp
+/vjudge-v2/results
+
+# ignore config files
+config.ini

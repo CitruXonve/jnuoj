@@ -1,0 +1,34 @@
+# ignore bott files
+/results/*
+/cha_results/*
+/raw_files/*
+/cha_raw_files/*
+*.bott
+
+# ignore CodeBlocks/Netbeans project files, compiled files
+bin
+build
+*.cbp
+*.layout
+*.depend
+dist
+nbproject
+obj
+.dep.inc
+*.o
+Makefile
+**/.deps
+**/autom4te.cache
+dispatcher
+judger
+stamp-h1
+
+# ignore log files
+*.log
+nohup.out
+
+# ignore config files
+config.ini
+
+# ignore judging results
+/judger-v2/results/*
