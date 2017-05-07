@@ -1,0 +1,94 @@
+<html><head><meta http-equiv=refresh content=100><meta name=keywords content="HDOJ ACM ICPC OJ C C++ Pascal Java"><meta http-equiv=Content-Type content="text/html;charset=gb2312"><link rel=stylesheet type=text/css href="/images/global.css" media=all><link rel=stylesheet type=text/css href="/css/diyinhead.css" media=all><link rel=stylesheet type=text/css href="/css/webinhead.css" media=all><script src="/js/global.js" type=text/javascript></script><script src="/js/register.js" type=text/javascript></script><script src="/js/MathJax/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><title>Realtime Status</title></head><body >
+<a name=top></a>
+<table align=center cellSpacing=0 cellPadding=0 width=980 border=0 style="word-wrap:break-word">
+<tr>
+	<td style="border:#1A5CC8 1px solid" align=center width=100%>
+		<a href="/">
+			<img src="/images/banner.jpg" width="100%" height=116 border=0>
+		</a>
+	</td>
+</tr>
+<tr>
+	<td style="border:#1A5CC8 1px solid">
+	<table cellSpacing=0 cellPadding=1 width="979px">
+	<tr bgcolor=#1A5CC8 align=center class=banner height=25>
+		<td>Online Judge</td>
+		<td>Online Exercise</td>
+		<td>Online Teaching</td>
+		<td>Online Contests</td>
+	<td>Exercise Author</td>
+	</tr>
+	<tr style="font-size:16px" align=center>
+		<td width=20% valign=top>
+		<a href="/faq.php" style="text-decoration: none">F.A.Q</a><br>
+		<a href="/friends" style="text-decoration: none">Hand In Hand</a><br>
+		<a href="/onlineuser.php" style="text-decoration: none">Online Acmers</a>	<br>
+		<!-- /onlineuser.php-->
+		
+		<a href="/forum" style="text-decoration: none">Forum | </a><a href="/discuss/public/list.php" style="text-decoration: none">Discuss</a><br>
+		<a href="/statistic/submit_graph.php" style="text-decoration: none">Statistical Charts</a><br>
+		</td>
+		<td width=20% valign=top>
+		<form action="/search.php" method=get>
+		<a href="/listproblem.php?vol=1" style="text-decoration: none">Problem Archive</a><br/>
+		<!--<a href="http://feeds.feedburner.com/Hdoj-problemset"><img src="/images/rss1.jpg" alt="problemset" style="vertical-align:text-bottom;"width=20 height=20></a><br>-->
+		<!--
+			 <a href="/submit.php">Submit Solution</a><br>
+		-->	
+		<a href="/status.php" style="text-decoration: none">Realtime Judge Status</a><br>
+
+		<a href="/ranklist.php" style="text-decoration: none">Authors Ranklist</a><br>
+		<input name=field value=author type=hidden><input class=text60 name=key>&nbsp;<input class=button40 type=submit value=Search>
+		
+		<!--
+			<input name=field value=problem type=hidden><input class=text60 name=key>&nbsp;<input class=button40 type=submit value=Search>
+		-->
+		</form>
+		</td>
+		<td width=20% valign=top>
+		 <form action='/search.php' method=get> 
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none" href="http://code.hdu.edu.cn/">C/C++/Java Exams &nbsp;&nbsp;&nbsp;&nbsp;</a><br/>
+		<a style="text-decoration: none" href="/game">ACM Steps</a><br/>
+		<a href = "/ITJobs/">Go to Job</a><br/>	
+		<a href="/livecast" style="text-decoration: none">Contest LiveCast</a><br/>
+		<a style="text-decoration: none" href="/region">ICPC@China</a><br/>
+		<!-- <a href="/register.php">Register New Author</a><br> -->
+		<!-- <a href="/modifyuser.php">Update Your Information</a><br> -->
+		</form>
+		</td>
+		<td width=20% valign=top>
+		<a href="http://bestcoder.hdu.edu.cn" style="text-decoration: none; color: red; font-weight: bold;">Best Coder <sup style="color: gray;">beta</sup></a><br/><a href="/vip/contest_list.php" style="text-decoration: none">VIP</a> | <a href="/contests/contest_list.php" style="text-decoration: none">STD Contests</a><br /><a href="http://code.hdu.edu.cn/vcontest" style="text-decoration: none">Virtual Contests </a><br/>&nbsp;&nbsp;<a href="/diy/contest_list.php" style="text-decoration: none">&nbsp;&nbsp;DIY | </a><a href="/webcontest" style="text-decoration: none"><font color="">Web-DIY</font> <font size=1 color="gray"><sup>beta</sup></font></a><br/><a style="text-decoration: none" href="/recentcontest">Recent Contests</a><br/>		</td>
+		<td width=20%>
+		<div align=left style="font-size:16px;width:150px"><a href="/userstatus.php?user=jnuacmvj" style="text-decoration: none"><img alt="Author" src="/images/user.png" border=0 height=18 width=18> jnuacmvj</a><br><b style="font-family:Arial;font-size:16px"><a href="/listmsg.php" style="text-decoration: none"><img alt="Mail" src="/images/mail.png" border=0 height=18 width=18> Mail 0</a><a href="/listmsg.php?type=new" style="text-decoration: none">(<font color=red>0</font>)</a></b><br><a href="/control_panel.php" style="text-decoration: none"><img src="/images/panel.jpg" alt="Control Panel" border=0 height=18 width=18> Control Panel </a><br><a href="/userloginex.php?action=logout" style="text-decoration: none"><img src="/images/signout.png" alt="Sign Out" border=0 height=18 width=18> Sign Out</a></div>		</td>
+	</tr>
+	</table>
+	</td>
+</tr>
+<tr>
+	<td>
+		<div align=center id=rollword><marquee scrollamount=2 width=600 scrolldelay=30 onMouseOver="javascript:this.stop();" onMouseOut="javascript:this.start();"><b style="margin-right:20px"></b></marquee></div>	</td>
+</tr>
+<tr><td><div id=fixed_table><a name=status></a><h1>Realtime Status</h1><table width=100% border=0 align=center cellspacing=2 style="border-bottom:#879BFF 1px dashed" class=table_text><tr bgcolor=#1A5CC class=table_header> <td height=22 width=8%>Run ID</td><td width=15%>Submit Time</td><td>Judge Status</td><td width=50>Pro.ID</td><td width=74>Exe.Time</td><td width=90>Exe.Memory</td><td width=76>Code Len.</td><td width=80>Language</td><td width=16%>Author</td></tr><form action="/status.php" method=get style="margin-bottom:0px"><left>From <input name=first type=text style="width:70px;" maxlength=10 class=text40 value=""> Problem ID <input name=pid type=text maxlength=5 class=text40 value="5007"> Author <input name=user type=text maxlength=20 class=text60 value="jnuacmvj"> Language <span style="overflow:hidden;width:80px;height:22px;border:#879BFF 1px dashed"><select name="lang" style="margin:-1px;width:81px;font-family:Arial;font-size:14px;height:22px"><option value='0' selected>All</option><option value='1'>G++</option><option value='2'>GCC</option><option value='3'>C++</option><option value='4'>C</option><option value='5'>Pascal</option><option value='6'>Java</option><option value='7'>C#</option></select></span> Status <span style="overflow:hidden; width:157px;height:22px;border:#879BFF 1px dashed"><select name=status style="font-family:Arial;font-size:14px;width:158px;height:23px;margin:-1"><option value='0' selected>All</option><option value='5'>Accepted</option><option value='6'>Wrong Answer</option><option value='8'>Presentation Error</option><option value='12'>Compilation Error</option><option value='7'>Runtime Error</option><option value='9'>Time Limit Exceeded</option><option value='10'>Memory Limit Exceeded</option><option value='11'>Output Limit Exceeded</option></select></span> <input type=submit value=Go class=button40 style="height:22px;margin-top:-3px"></center></form></td></tr><tr align=center ><td height=22px>20591848</td><td>2017-05-05 21:14:08</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>15MS</td><td>1584K</td><td><a href="/viewcode.php?rid=20591848"  target=_blank>507 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr bgcolor=#D7EBFF align=center ><td height=22px>19235229</td><td>2016-12-03 18:13:29</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>15MS</td><td>1952K</td><td><a href="/viewcode.php?rid=19235229"  target=_blank>968 B</td><td>GCC</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr align=center ><td height=22px>19235223</td><td>2016-12-03 18:12:31</td><td><font color=green>Wrong Answer</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>0MS</td><td>1944K</td><td><a href="/viewcode.php?rid=19235223"  target=_blank>968 B</td><td>GCC</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr bgcolor=#D7EBFF align=center ><td height=22px>19235074</td><td>2016-12-03 17:53:49</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>15MS</td><td>1584K</td><td><a href="/viewcode.php?rid=19235074"  target=_blank>507 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr align=center ><td height=22px>19234958</td><td>2016-12-03 17:41:56</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>15MS</td><td>1584K</td><td><a href="/viewcode.php?rid=19234958"  target=_blank>442 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr bgcolor=#D7EBFF align=center ><td height=22px>18218371</td><td>2016-09-08 20:24:35</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>0MS</td><td>1588K</td><td><a href="/viewcode.php?rid=18218371"  target=_blank>915 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr align=center ><td height=22px>18218283</td><td>2016-09-08 20:06:41</td><td><font color=green>Wrong Answer</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>15MS</td><td>1588K</td><td><a href="/viewcode.php?rid=18218283"  target=_blank>1166 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr bgcolor=#D7EBFF align=center ><td height=22px>18218267</td><td>2016-09-08 20:04:00</td><td><font color=green>Wrong Answer</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>0MS</td><td>1584K</td><td><a href="/viewcode.php?rid=18218267"  target=_blank>1242 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr align=center ><td height=22px>18218174</td><td>2016-09-08 19:37:40</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>0MS</td><td>1576K</td><td><a href="/viewcode.php?rid=18218174"  target=_blank>837 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr bgcolor=#D7EBFF align=center ><td height=22px>18218165</td><td>2016-09-08 19:35:58</td><td><font color=green>Wrong Answer</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>31MS</td><td>1580K</td><td><a href="/viewcode.php?rid=18218165"  target=_blank>836 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr align=center ><td height=22px>18218058</td><td>2016-09-08 19:12:21</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>0MS</td><td>1412K</td><td><a href="/viewcode.php?rid=18218058"  target=_blank>449 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr bgcolor=#D7EBFF align=center ><td height=22px>18218050</td><td>2016-09-08 19:09:50</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>0MS</td><td>1592K</td><td><a href="/viewcode.php?rid=18218050"  target=_blank>1992 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr><tr align=center ><td height=22px>18217962</td><td>2016-09-08 18:48:29</td><td><font color=red>Accepted</font></td><td><a href="/showproblem.php?pid=5007">5007</a></td><td>15MS</td><td>1568K</td><td><a href="/viewcode.php?rid=18217962"  target=_blank>1167 B</td><td>G++</td><td class=fixedsize><a href="/userstatus.php?user=jnuacmvj">jnuacmvj</a></td></tr></table><p align=center class=footer_link><a style="margin-right:20px" href="/status.php?user=jnuacmvj&pid=5007&lang=0&status=0#status"><< First Page</a><a href="/status.php?last=1&user=jnuacmvj&pid=5007&lang=&status=#status">Last Page >></a></p></div>
+<tr>
+<td>
+	<table style="border:#1A5CC8 1px solid; font-size:14px" cellSpacing=0 cellPadding=1 width=100%>
+	<tr align=center>
+		<td class=footer_link height=45><a href="/">Home</a> | <a href=#top>Top</a></td>
+		<td style="padding:6px">
+			Hangzhou Dianzi University Online Judge 3.0<br>
+			Copyright &copy; 2005-2017 <a href=mailto:acm@hdu.edu.cn>HDU ACM Team</a>. All Rights Reserved.<br>
+			<a href="../about_us/developer.php">Designer & Developer </a>: <a>Wang Rongtao</a>&nbsp<a>LinLe</a>&nbsp<a href=mailto:gjavac@gmail.com >GaoJie</a>&nbsp<a href=mailto:gl8997@gmail.com >GanLu</a><br>
+			<span class=pagerunstatus>Total 0.187200(s) query 1, Server time : 2017-05-05 21:14:11, Gzip disabled</span>		</td>
+		<td class=footer_link>
+			<!-- <a href="javascript:history.go(-1);">Back</a> | <a href="javascript:history.forward();">Forward</a>-->
+			<a href="/admin">Administration</a>	
+		</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+</body></html>
+
+==============
+http://acm.split.hdu.edu.cn/status.php?first=&pid=5007&user=jnuacmvj&lang=&status=0
