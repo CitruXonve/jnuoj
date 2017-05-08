@@ -20,7 +20,6 @@ autom4te.cache
 Makefile
 .deps
 stamp-h1
-config.h
 config.status
 vjudge
 
