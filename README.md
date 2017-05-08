@@ -3,15 +3,22 @@ This website is based on [BNUOJ](https://github.com/51isoft/bnuoj/) project, whi
 
 ## Dependencies
 
-** dispatcher ** ：`libmysqlclient` `libpthread`
+**dispatcher** ：`mysql-devel` `libpthread`
 
-** judger ** : `libpthread` `gcc` `openjdk` `python` and so on, depend on list of languages supported by the OJ
+**judger** : `libpthread` `gcc` `openjdk` `python2` `python3` and so on, depend on list of languages supported by the OJ
 
-** vjudge ** : `glib2.0` `libre2` `libcurl` `libjpeg` `libhtmlcxx` `libcrypto`
+**vjudge** : `glib2.0` `re2-devel` `libcurl` `libjpeg` `htmlcxx` `libcrypto`
+
+Take `htmlcxx` as an example:
+
+> wget https://jaist.dl.sourceforge.net/project/htmlcxx/htmlcxx/0.86/htmlcxx-0.86.tar.gz  
+cd ./htmlcxx-0.86  
+./configure  
+sudo make && make install  
 
 ## Configuration
 
-### 0. clone the repo
+### 0. Cloning the repo
 
 > git clone https://gitlab.jnuacm.club/Semprathlon/jnuoj
 
@@ -22,6 +29,7 @@ curl -sS https://getcomposer.org/installer | php
 php composer.phar install
 
 Prepare the `Nginx` and `Mysql` services and edit `config.php` (see `config.sample.php` as a reference).
+> GRANT SELECT, INSERT, UPDATE, DELETE ON '[database]'.'*' TO '[username]'@'[hostname]' IDENTIFIED BY '[password]';  
 
 ### 2. Judger
 
@@ -50,11 +58,11 @@ Edit `config.ini` (see `config.sample.ini` as a reference).
 
 ### 4. Vjudger
 
-Do just as what to do with ** dispatcher **.
+Do just as what to do with **dispatcher**.
 
 ## Quick Start
 
-- Start ** dispatcher **, ** judger ** and ** vjudger ** in the way of
+- Start **dispatcher**, **judger** and **vjudger** in the way of
 > cd ./judger  
 nohup ./src/judger&
 
